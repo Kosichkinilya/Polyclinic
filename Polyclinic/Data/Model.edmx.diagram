@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0026f79de9174bbdb5d92f0324b95984" Name="Diagram1">
+        <EntityTypeShape EntityType="DbModel.Appointment" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.Doctor" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.MedicalCard" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.Nurse" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.Sick" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.Specialization" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.sysdiagram" Width="1.5" PointX="5.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.Worker" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.AppointmentView" Width="1.5" PointX="7.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.DoctorView" Width="1.5" PointX="7.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.NurseView" Width="1.5" PointX="7.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbModel.Patient" Width="1.5" PointX="9.75" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="DbModel.FK_Appointment_Doctor" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModel.FK_Appointment_MedicalCard" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModel.FK_Appointment_Nurse" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModel.FK_Doctor_Specialization" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModel.FK_Doctor_Worker" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModel.FK_Sick_MedicalCard" ManuallyRouted="false" />
+        <AssociationConnector Association="DbModel.FK_Nurse_Worker" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
