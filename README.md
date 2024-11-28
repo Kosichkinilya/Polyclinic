@@ -1,3 +1,7 @@
+preview image
+![image](https://github.com/user-attachments/assets/5c74a1bc-3873-4487-bcbf-ab396197f67a)
+![image](https://github.com/user-attachments/assets/3746b028-b70e-4eec-9219-e9661011eaf9)
+
 The designed database of the subject area "Polyclinic". 
 The implemented database is aimed at optimizing the work of a medical institution by automating the processes of patient management, their medical records and interaction with medical personnel.
 The database is accompanied by a WPF project that implements simple access to database data and simple management.
